@@ -1,0 +1,21 @@
+# ### Ignore all what's not a root project ###
+# /*
+/backend-api
+/lambda
+/cli
+todo.txt
+
+# ### Not ignore files/dir pertencing to the root project ###
+# !iam/examples/**
+# !database
+
+
+# Ignora tudo na raiz
+# /*
+iam/*
+
+### Don't ignore this dir and they content  ###
+!iam/examples/
+!database/
+
+
