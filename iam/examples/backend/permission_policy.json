@@ -1,0 +1,31 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowSSMAccess",
+      "Effect": "Allow",
+      "Action": [
+        "ssm:*",
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "AllowSecretsManagerAccess",
+      "Effect": "Allow",
+      "Action": "secretsmanager:GetSecretValue",
+      "Resource": "your-secret-arn-here"
+    },
+    {
+      "Sid": "AllowScriptBucketRead",
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "your-script-bucket-arn-here/*"
+    },
+    {
+      "Sid": "AllowCloudFrontInvalidation",
+      "Effect": "Allow",
+      "Action": "cloudfront:CreateInvalidation",
+      "Resource": "your-cloudfront-distribution-arn-here"
+    }
+  ]
+}
