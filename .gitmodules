@@ -1,0 +1,6 @@
+[submodule "streaming-api"]
+	path = streaming-api
+	url = https://github.com/LuigiPereira1709/streaming-api
+[submodule "lambda-audio-converter"]
+	path = lambda-audio-converter
+	url = https://github.com/LuigiPereira1709/lambda-audio-converter
