@@ -1,0 +1,1611 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1752194992439
+  modified: 1752194992439
+  description: ""
+collection:
+  - name: Music
+    meta:
+      id: fld_68c3d017e2014123aa57f45ab179164d
+      created: 1752212747671
+      modified: 1752437351191
+      sortKey: -1752212747671
+      description: ""
+    children:
+      - name: post
+        meta:
+          id: fld_809dc890978748d3944e5ff5e67054cb
+          created: 1752213887633
+          modified: 1752438970568
+          sortKey: -1752212796445
+          description: ""
+        children:
+          - name: valid
+            meta:
+              id: fld_e21dcc831fff4f168428dff5ea257324
+              created: 1752214033819
+              modified: 1752438974297
+              sortKey: -1752213962751
+              description: ""
+            children:
+              - url: "{{ _.base_m_url }}"
+                name: Short
+                meta:
+                  id: req_0ef42529e93544669f79b1690446dc69
+                  created: 1752212796344
+                  modified: 1752440269827
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752214064478
+                method: POST
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_560d00fd8862420f91fb3c0f0a7df73e
+                      name: title
+                      value: Strange Kibbles
+                      description: ""
+                      disabled: false
+                    - id: pair_bd03e5e6f4444a528a1eadb45bc80e22
+                      name: year
+                      value: "2025"
+                      description: ""
+                      disabled: false
+                    - id: pair_2fa0f1796d724031a9fd7a89f46d0c88
+                      name: thumbnailFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/strange_kibbles_uberclef.jpeg
+                    - id: pair_c7cbfd9eff2244b392f9faffc0fce21c
+                      name: contentFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/strange_kibbles_uberclef.mp3
+                    - id: pair_9a2e76dacaeb4bd0abadcacc6f5a2e01
+                      name: artist
+                      value: uberclef
+                      description: ""
+                      disabled: false
+                    - id: pair_b0c48f44cc844b8ebac73e84b197274b
+                      name: genre
+                      value: reggae
+                      description: ""
+                      disabled: false
+                    - id: pair_39b6f0d197d14ae2a4f0ab17a55e4a73
+                      name: moods
+                      value: chilled
+                      description: ""
+                      disabled: false
+                    - id: pair_35b78713c2244d1ea2458d755ec9c46d
+                      name: moods
+                      value: relaxed
+                      description: ""
+                      disabled: false
+                    - id: pair_1ee5027cca2346668d5da9433b80e432
+                      name: album
+                      value: uberclef
+                      description: ""
+                      disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}"
+                name: Medium
+                meta:
+                  id: req_72e929e00c1047a7a5e9e6ecbc7aa170
+                  created: 1752213930886
+                  modified: 1752261720440
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752214064678
+                method: POST
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_281299656d8b47ae93808a49ed5bb971
+                      name: title
+                      value: Space Cowboy
+                      description: ""
+                      disabled: false
+                    - id: pair_f36bca0661724602a413d752ddb46eb5
+                      name: year
+                      value: "2000"
+                      description: ""
+                      disabled: false
+                    - id: pair_7aba94d8841b4ee9a8205a1fa995d789
+                      name: explicit
+                      value: "true"
+                      description: ""
+                      disabled: false
+                    - id: pair_5d976937fa6c4f3d85e43aee863937a4
+                      name: thumbnailFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/medium/spacecowboy_uberclef.png
+                    - id: pair_c7e776b86ee640fb9ebe542c3650ede2
+                      name: contentFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/medium/spacecowboy_uberclef.opus
+                    - id: pair_288af31b893d43e39c6deade2537fab0
+                      name: artist
+                      value: Cowboy Bebop
+                      description: ""
+                      disabled: false
+                    - id: pair_325b810eadc444c2b71c1082b05088e6
+                      name: feats
+                      value: Spike
+                      description: ""
+                      disabled: false
+                    - id: pair_dc67cd72ecda4eb882297436fe11e39a
+                      name: feats
+                      value: Faye
+                      description: ""
+                      disabled: false
+                    - id: pair_e21299642832458dad222ad9c4f5973f
+                      name: album
+                      value: Lofi
+                      description: ""
+                      disabled: false
+                    - id: pair_9ad3c038cdc14b48997bbcbdf86dc043
+                      name: genre
+                      value: Rock
+                      description: ""
+                      disabled: false
+                    - id: pair_3ec54ea3b64e49c89aea2d3a406283c4
+                      name: moods
+                      value: nostalgic
+                      description: ""
+                      disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}"
+                name: Large
+                meta:
+                  id: req_a875b69dad5a4f1a9481f368ae1f2a44
+                  created: 1752213962651
+                  modified: 1752262474556
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752214064578
+                method: POST
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_0c17b78efedd46ec839009adb975ef77
+                      name: title
+                      value: Comfy & Relaxing Songs
+                      description: ""
+                      disabled: false
+                    - id: pair_0ea8183786b64bb98ffe5d2f714143ed
+                      name: thumbnailFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/large/comfy_relaxing_songs.png
+                    - id: pair_dd8a0aceefbc49aea30cdeb9e79ab0e3
+                      name: contentFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/large/comfy_relaxing_songs.ogg
+                    - id: pair_0c04875d4b054889a0694f554e22a636
+                      name: artist
+                      value: lofiru
+                      description: ""
+                      disabled: false
+                    - id: pair_60ac72dcf27d490986f0c270832208db
+                      name: genre
+                      value: hip hop
+                      description: ""
+                      disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: invalid
+            meta:
+              id: fld_e1362d525e6a4fd8abb9fa2c4f009ab6
+              created: 1752214045138
+              modified: 1752438988114
+              sortKey: -1752213962851
+              description: ""
+            children:
+              - url: "{{ _.base_m_url }}"
+                name: Missing Fields
+                meta:
+                  id: req_3a8e220540694f0abf65b2d5b69f68db
+                  created: 1752214078612
+                  modified: 1752375546581
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752214082555
+                method: POST
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_1de891ba5a4c496a8dd6cef273a7ad97
+                      name: feats
+                      value: feat 0
+                      description: ""
+                      disabled: false
+                    - id: pair_6a3e0ea1efd34643a7b0cb7910aa9472
+                      name: feats
+                      value: feat 1
+                      description: ""
+                      disabled: false
+                    - id: pair_b4391a7124d443d0bea4bfb195e22a38
+                      name: moods
+                      value: Happy
+                      description: ""
+                      disabled: false
+                    - id: pair_0eeea52185b64c6f8f7d0b198e7bef84
+                      name: moods
+                      value: Sad
+                      description: ""
+                      disabled: false
+                parameters:
+                  - id: pair_e5323d5d1a8f446a9ac446ca2f3bce57
+                    name: ""
+                    value: ""
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                authentication:
+                  type: none
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}"
+                name: Year Range
+                meta:
+                  id: req_3209b4d329974b7ab317f11ed36106f2
+                  created: 1752214149514
+                  modified: 1752439260702
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752214082655
+                method: POST
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_834344bd32354e9caf4f7dfc2c715073
+                      name: year
+                      value: "1899"
+                      description: ""
+                      disabled: false
+                    - id: pair_34c7e58cf6204fcf98fa41193ef7c16f
+                      name: title
+                      value: Test
+                      description: ""
+                      disabled: false
+                    - id: pair_722d694d779845a08aa1c0df485e1ef3
+                      name: thumbnailFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/bonsai_massobeats.jpeg
+                    - id: pair_c20e6bed44044d0a8283be74003ccbbd
+                      name: contentFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/bonsai_massobeats.mp3
+                    - id: pair_7cedc4395f93449e87845cfc40c1aee0
+                      name: artist
+                      value: Test
+                      description: ""
+                      disabled: false
+                    - id: pair_8edfa3e9b18b4a828ea478e31c9c95ca
+                      name: genre
+                      value: R B
+                      description: ""
+                      disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}"
+                name: Files Type
+                meta:
+                  id: req_76ee46daa91d40c49416967d21745325
+                  created: 1752214194412
+                  modified: 1752262348728
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752214194412
+                method: POST
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_cb7a858762724679aa768ecdfff48d2b
+                      name: thumbnailFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/bonsai_massobeats.mp3
+                    - id: pair_13b15a1c57e6437ca5f320dcf4946166
+                      name: contentFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/bonsai_massobeats.jpeg
+                    - id: pair_75638109c46b47d08cd92c9d5045f320
+                      name: title
+                      value: Test
+                      description: ""
+                      disabled: false
+                    - id: pair_cb35d7b5d5064c8995f426edee963298
+                      name: artist
+                      value: Test
+                      description: ""
+                      disabled: false
+                    - id: pair_f7478ee51eba46438154c1e5e6e51f1e
+                      name: genre
+                      value: Rock
+                      description: ""
+                      disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}"
+                name: Array Size
+                meta:
+                  id: req_330b482f98e2470885f91c8f5df04108
+                  created: 1752214232870
+                  modified: 1752262307021
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752214232870
+                method: POST
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_813ed29448d94372882398472eda58af
+                      name: moods
+                      value: sad
+                      description: ""
+                      disabled: false
+                    - id: pair_d352aa6ea1fd4bb2adad3bd752ba4d75
+                      name: moods
+                      value: sad
+                      description: ""
+                      disabled: false
+                    - id: pair_e87ee0c2ce374a6684fdb95fd14da960
+                      name: moods
+                      value: sad
+                      description: ""
+                      disabled: false
+                    - id: pair_fd4a88a62c4a4273b279d8c0dff2ecc7
+                      name: moods
+                      value: sad
+                      description: ""
+                      disabled: false
+                    - id: pair_74e087a8ace346c487a7adcad82dcb2f
+                      name: moods
+                      value: sad
+                      description: ""
+                      disabled: false
+                    - id: pair_4e45693556004e3db0e58204ab317a43
+                      name: moods
+                      value: sad
+                      description: ""
+                      disabled: false
+                    - id: pair_e19adee3fc5e4c8c977945cfa7031098
+                      name: moods
+                      value: sad
+                      description: ""
+                      disabled: false
+                    - id: pair_453c37fe5bff4f11aaea231868167074
+                      name: title
+                      value: Test
+                      description: ""
+                      disabled: false
+                    - id: pair_a250c2c3b9674bc5b29416523a5c15e4
+                      name: thumbnailFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/bonsai_massobeats.jpeg
+                    - id: pair_a6c91bd30d924660a521684425a268e6
+                      name: contentFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/bonsai_massobeats.mp3
+                    - id: pair_5acfcd0853734fc1add552c49a7eeaf2
+                      name: artist
+                      value: Test
+                      description: ""
+                      disabled: false
+                    - id: pair_16aca5e41d094421a08d40318d19800b
+                      name: genre
+                      value: Soul
+                      description: ""
+                      disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}"
+                name: Enum Values
+                meta:
+                  id: req_4ad3d0a1df664e5ca0dd78b7d2f6264e
+                  created: 1752214261994
+                  modified: 1752262222355
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752214261994
+                method: POST
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_2cfcdda125474edfafb8f1c8ba94a09d
+                      name: moods
+                      value: Mood
+                      description: ""
+                      disabled: false
+                    - id: pair_366e76b77df648339c2a99540aec52b5
+                      name: genre
+                      value: Genre
+                      description: ""
+                      disabled: false
+                    - id: pair_9366cadcd9614f24bf50da5e70bc5f4d
+                      name: title
+                      value: Test
+                      description: ""
+                      disabled: false
+                    - id: pair_f7b8a06076894d909538043577d61099
+                      name: thumbnailFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/bonsai_massobeats.jpeg
+                    - id: pair_68af2093013e4e08ba14dc56acee23f4
+                      name: contentFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/bonsai_massobeats.mp3
+                    - id: pair_222c578e1e63463cb06fc3d1ac8349b9
+                      name: artist
+                      value: Test
+                      description: ""
+                      disabled: false
+                parameters:
+                  - id: pair_9c42376512664c228883409d17e56021
+                    name: ""
+                    value: ""
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}"
+                name: File +100MB
+                meta:
+                  id: req_227084fe062c4e4a9d30e7e02bfced92
+                  created: 1752279893630
+                  modified: 1752365870679
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752279893630
+                method: POST
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_de29b2e2e8c14c7e96b052aee1374f54
+                      name: title
+                      value: test
+                      description: ""
+                      disabled: false
+                    - id: pair_7d90e0d71e0047ad9c2ff20fa82a2e2e
+                      name: thumbnailFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/large/comfy_relaxing_songs.png
+                    - id: pair_016ed19292f74b229756ad91ac335f84
+                      name: contentFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/large/greater_than_100mb.mp3
+                    - id: pair_5e9f472d412e453190bd3a707efbdc8e
+                      name: artist
+                      value: test
+                      description: ""
+                      disabled: false
+                    - id: pair_f209e858491d4f1a9c172951447cdcf5
+                      name: album
+                      value: test
+                      description: ""
+                      disabled: false
+                    - id: pair_75eb12f1efaf45a4af19a04332a88d62
+                      name: genre
+                      value: blues
+                      description: ""
+                      disabled: false
+                    - id: pair_bde5a68bc00944eca0891b6552e672f4
+                      name: moods
+                      value: Intense
+                      description: ""
+                      disabled: false
+                parameters:
+                  - id: pair_1d0ef726da36410f802e5c7bed724d50
+                    name: ""
+                    value: ""
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+      - name: delete
+        meta:
+          id: fld_c44e94ec20b0425d8ab7ab262ada55d3
+          created: 1752262652963
+          modified: 1752283024710
+          sortKey: -1752212796545
+          description: ""
+        children:
+          - name: invalid
+            meta:
+              id: fld_6504f49c86e24639af5ad49fa5e5fb86
+              created: 1752262680061
+              modified: 1752283036065
+              sortKey: -1752262669575
+              description: ""
+            children:
+              - url: "{{ _.base_m_url }}/non-existing-id"
+                name: Non Existing ID
+                meta:
+                  id: req_904c9a5013d5436388e4ef4ecb99d9fd
+                  created: 1752262663783
+                  modified: 1752266675102
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752262702157
+                method: DELETE
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/pitanguinha"
+                name: Still Pending
+                meta:
+                  id: req_68da06e547684181b4a37bb45991e0b6
+                  created: 1752265485014
+                  modified: 1752266683410
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752262702257
+                method: DELETE
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: valid
+            meta:
+              id: fld_fdb7b653185f4547a9e7becf04aba296
+              created: 1752262690067
+              modified: 1752283030888
+              sortKey: -1752262669675
+              description: ""
+            children:
+              - url: "{{ _.base_m_url }}/pitanguinha"
+                name: Delete By ID
+                meta:
+                  id: req_cbf3c50393e544288e33fe4659d95d2c
+                  created: 1752262669475
+                  modified: 1752266679346
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752262707690
+                method: DELETE
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                scripts:
+                  preRequest: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+      - name: search
+        meta:
+          id: fld_222b4b24c5f34a77871a5696ca0d3814
+          created: 1752282936556
+          modified: 1752282954276
+          sortKey: -1752212796645
+          description: ""
+        children:
+          - name: invalid
+            meta:
+              id: fld_ce1a838c64804c709fe0c051827b3a96
+              created: 1752286503590
+              modified: 1752286503590
+              sortKey: -1752286503590
+              description: ""
+            children:
+              - url: "{{ _.base_m_url }}/non-existing-id"
+                name: Non Existing ID
+                meta:
+                  id: req_649a0e02fdda4568a4ee20e2dcd2ff87
+                  created: 1752283006873
+                  modified: 1752286569938
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752286510882
+                method: GET
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search/by-moods"
+                name: Moods Values
+                meta:
+                  id: req_435995e101cf41fc8f2c3e6c64095986
+                  created: 1752286595348
+                  modified: 1752287277831
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752286595348
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: '[ "sad", "sla" ]'
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search/by-feats"
+                name: Feats Empty
+                meta:
+                  id: req_1efa82b337664f85b4ceca07d56d821b
+                  created: 1752286925011
+                  modified: 1752286956500
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752286925011
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: "[]"
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search"
+                name: Any Search Args
+                meta:
+                  id: req_ab228fca035b46e78d1da87a393e7391
+                  created: 1752287011449
+                  modified: 1752287040458
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752287011449
+                method: GET
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search"
+                name: Genre Value
+                meta:
+                  id: req_1b3e8fc9422b412f8f86964a0d975357
+                  created: 1752287242030
+                  modified: 1752287309398
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752287242030
+                method: GET
+                parameters:
+                  - id: pair_e346783820d54a95ae1fc1495414a680
+                    name: genre
+                    value: genre
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/pitanguinha"
+                name: Still Pending
+                meta:
+                  id: req_a3860181748a45f59ba4a3f717693217
+                  created: 1752287465610
+                  modified: 1752287501525
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752287242130
+                method: GET
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/pitanguinha"
+                name: Conversion Failed
+                meta:
+                  id: req_9d0cee571d87486986d4b504a9e432af
+                  created: 1752287540736
+                  modified: 1752287558568
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752287540736
+                method: GET
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: valid
+            meta:
+              id: fld_2f8a2e52fc3b47b8b2b93192f002b950
+              created: 1752286507621
+              modified: 1752287593812
+              sortKey: -1752286507621
+              description: ""
+            children:
+              - url: "{{ _.base_m_url }}/pitanguinha"
+                name: By ID
+                meta:
+                  id: req_b02c1df4a5e34dc7b0cd1a14b42ea634
+                  created: 1752287386988
+                  modified: 1752287444547
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752287389726
+                method: GET
+                parameters:
+                  - id: pair_b841da7dc50642c4861277ead14ba9d4
+                    name: id
+                    value: pitanguinha
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search/by-moods"
+                name: By Moods In
+                meta:
+                  id: req_f5d1de8d70cc4e4fa53a9378045fca3d
+                  created: 1752287618832
+                  modified: 1752287729203
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752287618832
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: '[ "calm" ]'
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search/by-feats"
+                name: By Feats In
+                meta:
+                  id: req_60d0721075234a3dae1e42dfc6d48e26
+                  created: 1752287686178
+                  modified: 1752287770320
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752287686178
+                method: POST
+                body:
+                  mimeType: application/json
+                  text: '[ "marvada" ]'
+                headers:
+                  - name: Content-Type
+                    value: application/json
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search"
+                name: By Artist Regex (C_I)
+                meta:
+                  id: req_58d57071c6044bafae651a2a67b7aec0
+                  created: 1752287786314
+                  modified: 1752287872979
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752287786314
+                method: GET
+                parameters:
+                  - id: pair_935a1f8cdd6d455ba774ba6efd9cf4c9
+                    name: artist
+                    value: pitang
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search"
+                name: By Title Regex (C_I)
+                meta:
+                  id: req_ecd4720bfb1841ee85dc9026160a3aec
+                  created: 1752287827626
+                  modified: 1752287898342
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752287827626
+                method: GET
+                parameters:
+                  - id: pair_600633e3cd0f4f55bad7ac6c3f04d0fd
+                    name: title
+                    value: marvada
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search"
+                name: By Album Regex (C_I)
+                meta:
+                  id: req_d5e202fe91ea4e8084390bdb0676adfc
+                  created: 1752287909767
+                  modified: 1752287965107
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752287909767
+                method: GET
+                parameters:
+                  - id: pair_203bb9606702425db710fd6a94e11b25
+                    name: album
+                    value: stream
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search"
+                name: By Feat Regex (C_I)
+                meta:
+                  id: req_b1b0cb1309d84963bea5a0b5fee795c4
+                  created: 1752287980630
+                  modified: 1752288056115
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752287980630
+                method: GET
+                parameters:
+                  - id: pair_d612070d2b944fe6b3f659dc68290ed9
+                    name: feat
+                    value: pitanguin
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search"
+                name: By Genre
+                meta:
+                  id: req_65bf851df21d4aa699cd0a800c53afb3
+                  created: 1752288062067
+                  modified: 1752288081635
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752288062067
+                method: GET
+                parameters:
+                  - id: pair_e37de65257d84461a8a9800722d77ad2
+                    name: genre
+                    value: Blues
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search"
+                name: By Year
+                meta:
+                  id: req_54ce0abc42664605be4a50db092a2eac
+                  created: 1752288091075
+                  modified: 1752288137017
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752288091075
+                method: GET
+                parameters:
+                  - id: pair_d4395f7e3cdf44c28969b46234a60d41
+                    name: year
+                    value: "2003"
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/search"
+                name: By Year Range
+                meta:
+                  id: req_aa3062797c7f409f9bfe2857a526d5af
+                  created: 1752288144919
+                  modified: 1752288221429
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752288144919
+                method: GET
+                parameters:
+                  - id: pair_7b33b05010c54705b287794c962abaaf
+                    name: startYear
+                    value: "1999"
+                    description: ""
+                    disabled: false
+                  - id: pair_9c7a18eb467a4b9f85f9751ff86f3b95
+                    name: endYear
+                    value: "2010"
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+      - name: put
+        meta:
+          id: fld_f33425f4d26b44e1926825bf43d50e6d
+          created: 1752283002593
+          modified: 1752375559018
+          sortKey: -1752212796745
+          description: ""
+        children:
+          - name: invalid
+            meta:
+              id: fld_74cc3f769e4c445bb8802bf6e75579d2
+              created: 1752283066207
+              modified: 1752283896359
+              sortKey: -1752283009876
+              description: ""
+            children:
+              - url: "{{ _.base_m_url }}"
+                name: Non Existing ID
+                meta:
+                  id: req_fec824b6792d4da3be2c384e30cde55d
+                  created: 1752282945788
+                  modified: 1752283209388
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752283200828
+                method: PUT
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_44df3de5b5d941068ef181a90587edf9
+                      name: id
+                      value: non-existing
+                      description: ""
+                      disabled: false
+                parameters:
+                  - id: pair_0e842812ecc44a9fb7da262023f1f181
+                    name: ""
+                    value: ""
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}"
+                name: File Type
+                meta:
+                  id: req_e3d0cdcab61440db812630c4e231eb62
+                  created: 1752283196737
+                  modified: 1752283396034
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752283200728
+                method: PUT
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_29d94373960c4453a85c5893d8c48e51
+                      name: thumbnailFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/bonsai_massobeats.mp3
+                    - id: pair_9a2f3902545748d4916160e8b238b61a
+                      name: contentFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/short/bonsai_massobeats.jpeg
+                    - id: pair_812d782df3fd490da05c98a7414b7759
+                      name: id
+                      value: non-important
+                      description: ""
+                      disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}"
+                name: Enum Values
+                meta:
+                  id: req_008eac3b0e75441993c9a66d5e7cad41
+                  created: 1752283421953
+                  modified: 1752283489229
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752283421953
+                method: PUT
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_91c73dff5d5d4a818c2af6d6c58af7d4
+                      name: genre
+                      value: Genre
+                      description: ""
+                      disabled: false
+                    - id: pair_6d209f1eca5e48db8f6e703c02e7e851
+                      name: moods
+                      value: Mood
+                      description: ""
+                      disabled: false
+                    - id: pair_394e93b5e5bb4e90ba99a2d678624270
+                      name: id
+                      value: non-important
+                      description: ""
+                      disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}"
+                name: Array Size
+                meta:
+                  id: req_722d261c089a41f3a3c8eedebc3bce6e
+                  created: 1752283498080
+                  modified: 1752427901105
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752283498080
+                method: PUT
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_bcb7235f66304b7289f8b4f51927b5df
+                      name: moods
+                      value: nostalgic
+                      description: ""
+                      disabled: false
+                    - id: pair_eadc657143f642e589fb5a07d1e43a45
+                      name: moods
+                      value: nostalgic
+                      description: ""
+                      disabled: false
+                    - id: pair_93329ced92af49f78b4d457dccc9034c
+                      name: moods
+                      value: nostalgic
+                      description: ""
+                      disabled: false
+                    - id: pair_be54d6be7eba46ebb7f96a6804f50174
+                      name: moods
+                      value: nostalgic
+                      description: ""
+                      disabled: false
+                    - id: pair_da0a8368332747efa7c261b53bd0bca8
+                      name: moods
+                      value: nostalgic
+                      description: ""
+                      disabled: false
+                    - id: pair_15479f165306494380d6005e8dc37fc3
+                      name: moods
+                      value: nostalgic
+                      description: ""
+                      disabled: false
+                    - id: pair_b6bb08dfd80c4b7c9ae81f210ee6e8ed
+                      name: moods
+                      value: nostalgic
+                      description: ""
+                      disabled: false
+                    - id: pair_c2e9b6559fcc4cefad53180d06e85440
+                      name: id
+                      value: non-important
+                      description: ""
+                      disabled: false
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}"
+                name: File +100MB
+                meta:
+                  id: req_e12474ea94bb4ef595a3916dfce17fb6
+                  created: 1752283642704
+                  modified: 1752283829492
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752283642704
+                method: PUT
+                body:
+                  mimeType: multipart/form-data
+                  params:
+                    - id: pair_639a58367e404cff87cdd4c255aff87e
+                      name: id
+                      value: pitanguinha
+                      description: ""
+                      disabled: false
+                    - id: pair_ac22e8413b3a4cc3a2126b2eecae6f0d
+                      name: contentFile
+                      value: ""
+                      description: ""
+                      disabled: false
+                      type: file
+                      fileName: /home/luigi/Downloads/api-files/large/greater_than_100mb.mp3
+                headers:
+                  - name: Content-Type
+                    value: multipart/form-data
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                scripts:
+                  afterResponse: ""
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+      - name: content
+        meta:
+          id: fld_a563de64d29d4165a6f0e3d77d8c77e0
+          created: 1752284151171
+          modified: 1752441148139
+          sortKey: -1752212796845
+          description: ""
+        children:
+          - name: invalid
+            meta:
+              id: fld_c692f6e935cc4ca38833d92f0f1d9270
+              created: 1752284175094
+              modified: 1752286259595
+              sortKey: -1752284178010
+              description: ""
+            children:
+              - url: "{{ _.base_m_url }}/content"
+                name: Non Existing ID
+                meta:
+                  id: req_1475dfc56e3648528e7222c4e756073f
+                  created: 1752284194383
+                  modified: 1752285235721
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752284197019
+                method: GET
+                parameters:
+                  - id: pair_05ac4ae4a9d34ddf8eb230d77c9ed2e8
+                    name: id
+                    value: non-existing
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/content"
+                name: Still Pending
+                meta:
+                  id: req_915300a91af146c2a79ba658e3b1b912
+                  created: 1752286260861
+                  modified: 1752286338673
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752284197119
+                method: GET
+                parameters:
+                  - id: pair_14e31cdf9c5947968f9be637c0a2e635
+                    name: id
+                    value: pitanguinha
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+              - url: "{{ _.base_m_url }}/content"
+                name: Conversion Failed
+                meta:
+                  id: req_cface37ca07c4d728e897548fb56cc27
+                  created: 1752286282539
+                  modified: 1752286428719
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752286282539
+                method: GET
+                parameters:
+                  - id: pair_1a15082572524aa0a08d9311041d5982
+                    name: id
+                    value: pitanguinha
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+          - name: valid
+            meta:
+              id: fld_35045d2c49384d27a961ef679d933e37
+              created: 1752284181719
+              modified: 1752284184405
+              sortKey: -1752284178110
+              description: ""
+            children:
+              - url: "{{ _.base_m_url }}/content"
+                name: Presigned Url
+                meta:
+                  id: req_0773375b9308456fb14865c605bc4717
+                  created: 1752285252465
+                  modified: 1752441174840
+                  isPrivate: false
+                  description: ""
+                  sortKey: -1752285255902
+                method: GET
+                parameters:
+                  - id: pair_6b0a51756d7f4e02a9219703cfb6ec8d
+                    name: id
+                    value: 687420c02447495061bf8898
+                    description: ""
+                    disabled: false
+                headers:
+                  - name: User-Agent
+                    value: insomnia/11.2.0
+                settings:
+                  renderRequestBody: true
+                  encodeUrl: true
+                  followRedirects: global
+                  cookies:
+                    send: true
+                    store: true
+                  rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1752195172239
+    modified: 1752195172239
+environments:
+  name: "Base "
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1752195171958
+    modified: 1752264934006
+    isPrivate: false
+  data:
+    base_url: d130vf1311tsqd.cloudfront.net
+  subEnvironments:
+    - name: Podcast
+      meta:
+        id: env_73a3c389dc154642b54b32c41fbc8f98
+        created: 1752215680112
+        modified: 1752215713370
+        isPrivate: false
+        sortKey: 1752215680112
+      data:
+        base_p_url: "{{ _.base_url }}/podcast"
+    - name: Music
+      meta:
+        id: env_795ae3d81beb41909a4a0bbdaf073784
+        created: 1752215724292
+        modified: 1752215800550
+        isPrivate: false
+        sortKey: 1752215724292
+      data:
+        base_m_url: "{{ _.base_url }}/music"
