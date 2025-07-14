@@ -2,6 +2,10 @@
 [Versão em Português](doc/README_pt.md)  
 This project is a cloud-native streaming that is designed to store, manage, process and deliver static media content such music and podcasts. It is build using modern technologies and follows best practices in software development. The project is designed to be scalable, reliable, and easy to maintain.
 
+## Showcase
+[![foo](https://gyazo.com/6a405dd0c5f09bd26a5e3b5cb3548c23.png)](https://streamable.com/b8pheo)   
+**PS: Click on the image to watch the video.**
+
 ## Main Technologies
 - **Robust Api**: Uses a robust API writen in Java with Spring boot. The API is designed to be easy to use and provides a wide range of features for managing media content. To see more details about the API, please see the [API Doc](https://github.com/LuigiPereira1709/streaming-api).     
 - **Serverless Function**: Implements a serverless function using AWS Lambda to process media content. The function is designed to be scalable and cost-effective, allowing for efficient processing of media files. To see more details about the serverless function, please see the [Serverless Function Doc](https://github.com/LuigiPereira1709/lambda-audio-converter).    
